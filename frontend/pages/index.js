@@ -7,7 +7,7 @@ export default function Home() {
   const [dateTime, setDateTime] = useState('');
 
   useEffect(() => {
-    fetch('http://192.168.49.2:30001/api/hello')
+    fetch('http://192.168.39.141:30001/api/hello')
       .then(response => response.json())
       .then(data => {
         setMessage(data.message);
