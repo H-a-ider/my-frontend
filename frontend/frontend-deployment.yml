@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: frontend:latest
-        imagePullPolicy: IfNotPresent
+        image: zeeshan19/frontend:latest
         ports:
         - containerPort: 3000  
 ---
