@@ -1,10 +1,10 @@
 # my-frontend
 
-## Overview
+### Overview
 
 This repository contains a Next.js frontend application that communicates with a backend API. The application displays a message and the current date and time retrieved from the backend API.
 
-## Prerequisites
+### Prerequisites
 
 Make sure you have the following installed before running the application:
 - [Node.js](https://nodejs.org/en)
